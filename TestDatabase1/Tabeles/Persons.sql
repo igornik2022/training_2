@@ -4,7 +4,7 @@
     [Name] NVARCHAR(50) NOT NULL, 
     [Surname] NVARCHAR(50) NOT NULL, 
     [Patronymic] NVARCHAR(50) NOT NULL, 
-    [DateOfBirch] DATETIME NOT NULL
+    [DateOfBirch] DATETIME NOT NULL DEFAULT (getdate())
 )
 
 GO
